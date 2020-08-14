@@ -12,8 +12,8 @@ class InstagramSpider(scrapy.Spider):
     name = 'instagram'
     allowed_domains = ['instagram.com']
     start_urls = ['https://www.instagram.com/']
-    insta_login = 'pablopanucci'
-    insta_pwd = '#PWD_INSTAGRAM_BROWSER:10:1597341289:AalQADOej4p4rf3ax8vXte6BjpJwcaJMY3ZVYNDw+FnOE5h4hP3aUrVF1TMKMaXOYUL3H6WHzizbx1jFF+i3VjQ/pge3C6+7dAacMnd2DYYs5Th7Y0L1frwNLWZM0fDMKHBhuKfR/MdnmNg='
+    insta_login = 'login'
+    insta_pwd = 'pwd'
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     parse_user = ['oochi.cards', 'siameseyouth']  # Пользователь, у которого собираем посты. Можно указать список
 
